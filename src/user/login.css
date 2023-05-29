@@ -86,3 +86,11 @@ button:hover {
   }
 
 }
+
+img
+{
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+ 
+}

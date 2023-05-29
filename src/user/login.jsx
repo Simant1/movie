@@ -1,8 +1,10 @@
 import React from 'react'
 import "./login.css"
+import background from "../images/image.png"
 const login = () => {
   return (
     <>
+    <img src={background}/>
    <h1>Login</h1>
 <form>
   <div class="row">
@@ -15,6 +17,7 @@ const login = () => {
   </div>
   <button type="submit">Login</button>
 </form>
+
     </>
   )
 }
