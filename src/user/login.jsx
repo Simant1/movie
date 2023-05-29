@@ -1,6 +1,6 @@
 import React from 'react'
 import "./login.css"
-import background from "../images/image.png"
+import background from "../images/image.jpg"
 const login = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const login = () => {
   </div>
   <button type="submit">Login</button>
 </form>
+
 
     </>
   )
